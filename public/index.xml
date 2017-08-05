@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
     <Response>
-    <Say voice="alice">Hogan says hello!</Say>
-    <Play>https://hostabacall.herokuapp.com/dontcall</Play>
+    <Say voice="alice">Hogan says hello! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sodales pulvinar massa non ornare. Donec ultrices in ex at rutrum. Proin sit amet nisi pharetra, aliquam felis sed, aliquet ante. Sed quis posuere augue. Donec id augue tincidunt magna euismod aliquet. Duis vel turpis et tortor finibus dapibus vitae vel tellus. In hac habitasse platea dictumst. Sed et ullamcorper ipsum, eu blandit libero. Nunc et augue ac nibh feugiat pellentesque. Nunc porttitor tortor eget consectetur dapibus. Nam consectetur justo eu ante auctor pharetra. Nullam tempor dictum tellus, vitae faucibus metus vestibulum non. Maecenas cursus ante vitae orci suscipit, ac semper augue mattis.</Say>
+
     </Response>
