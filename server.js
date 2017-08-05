@@ -40,7 +40,7 @@ var router = express.Router();
 
 
 
-app.post('/:salesNumber', function(request, response) {
+app.get('/:salesNumber', function(request, response) {
     var salesNumber = request.params.salesNumber;
     var twimlResponse = new VoiceResponse();
 
