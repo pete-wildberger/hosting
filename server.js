@@ -22,7 +22,7 @@ app.get( '/', function(req, res){
 
   res.sendFile(path.resolve('./public/index.html'));
 });
-app.get( '/xml', function(req, res){
+app.get( '/index.xml', function(req, res){
   console.log('base url hit');
 
   res.sendFile(path.resolve('./public/index.xml'));
