@@ -24,7 +24,7 @@ app.get( '/', function(req, res){
 
   res.sendFile(path.resolve('./public/index.html'));
 });
-app.get( '/index.xml', function(req, res){
+app.post( '/index.xml', function(req, res){
   console.log('base url hit');
 
   res.sendFile(path.resolve('./public/index.xml'));
@@ -40,15 +40,15 @@ var router = express.Router();
 
 
 
-app.get('/:salesNumber', function(request, response) {
-    var salesNumber = request.params.salesNumber;
+app.post('/out/:id', function(request, response) {
+    number = req.params.id;
     var twimlResponse = new VoiceResponse();
 
     twimlResponse.say('Thanks for contacting our sales department. Our ' +
                       'next available representative will take your call. ',
                       { voice: 'alice' });
 
-    twimlResponse.dial(salesNumber);
+    twimlResponse.dial(number);
 
     response.send(twimlResponse.toString());
 });
